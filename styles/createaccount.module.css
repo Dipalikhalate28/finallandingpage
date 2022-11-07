@@ -1,0 +1,28 @@
+.createaccount {
+    min-width: 350px;
+    /* color: red; */
+    width: 80%;
+    background: #5D2EAB;
+    margin: auto;
+    border-radius: 30px;
+    padding: 50px;
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;  
+    font-family: 'Roboto', sans-serif 
+}
+.createaccount>div p {
+    font-weight: 0;
+}
+.createaccount div {
+    margin: 20px 0;
+}
+
+.createaccount button{
+    border-radius: 20px;
+    
+}
+
+.createbtn{
+    background-color: #ff9e00;
+}

@@ -1,0 +1,96 @@
+.converge {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-decoration: i; */
+    /* margin: auto; */
+}
+
+.image {
+    min-width: 400px;
+    width: 100%;
+    position: relative;
+    /* padding: 5%; */
+}
+
+.convergefirst {
+    
+    color: #5d2eab;
+    font-weight: 700;
+    
+    
+}
+
+.convergenm {
+    font-style:italic ;
+    font-size: 6em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    
+}
+
+.byhumancloud {
+    font-style: italic;
+    font-size: 3em;
+    color: #5d2eab;
+    font-family: 'Roboto', sans-serif;
+
+    font-weight: bolder;
+}
+
+.human {
+
+    color: #648FFF;
+    font-size: 3em;
+
+    font-weight: 700;
+}
+
+.cloud {
+    color: #648FFF;
+    font-size: 3em;
+
+    font-weight: 257;
+}
+
+.containeritem{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and  (max-width:350px) {
+    .convergenm {
+        font-style: italic;
+        font-size: 3.5em;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .byhumancloud {
+        font-style: italic;
+        font-size: 1em;
+        color: #5d2eab;
+        font-weight: 700;
+    }
+    
+    .human {
+    
+        color: #648FFF;
+        font-size: 2em;
+    
+        font-weight: 700;
+    }
+    
+    .cloud {
+        color: #648FFF;
+        font-size: 2em;
+    
+        font-weight: 257;
+    }
+
+    .image {
+       
+        position: relative;
+        padding: 20%;
+    }
+}

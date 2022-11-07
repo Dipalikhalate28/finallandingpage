@@ -1,0 +1,118 @@
+.footer {
+    margin: 20px auto;
+    background: #240046;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer hr {
+    background: #FF9E00;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer .heading-container {
+    width: 100%;
+    color: #fff;
+    border-bottom: 1px solid #FF9E00;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer .heading-container h2 {
+    width: 50%;
+    border-right: 1px solid #FF9E00;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer>div {
+    width: calc(50% - 1px);
+}
+
+/* .footer .contact{
+    border-left: 1px solid #ff9e00;
+} */
+.footer .location,
+.footer .contact {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer .location>div,
+.footer .contact>div {
+    width: 50%;
+    margin-bottom: 10px;
+    /* border:1px solid red; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact>div {
+    width: 33%;
+    min-width: 150px;
+    /* margin: 10px; */
+}
+
+.location>div.heading,
+.contact div.heading {
+    width: 100%;
+    margin: 0;
+    color: #ff9e00;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer .contact div.heading {
+    width: auto;
+}
+
+.detail {
+    color: #fff;
+    font-weight: 0;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ .detail span {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0px;
+    /* border: 1px solid red; */
+}
+
+ .email-container {
+    border: 1px solid #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.footer .contact .email-container input {
+    max-width: 50%;
+
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+ .email-container div {
+    background: #ff9e00;
+    color: #fff;
+    border-radius: 20px;
+    padding: 0 5px;
+    font-family: 'Roboto', sans-serif;
+}
