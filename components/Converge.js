@@ -2,6 +2,7 @@ import React from "react";
 import style from "../styles/converge.module.css";
 import { convergeimg } from "../images/svgexports";
 import { Card, Grid, Stack } from "@mui/material";
+import {logoimage} from "../images/svgexports"
 function Converge({ width }) {
 
 
@@ -28,10 +29,10 @@ function Converge({ width }) {
         >
           <div className={style.convergefirst}>
             <div className={style.convergenm}>Converge</div>
-            <div>
-              <span className={style.byhumancloud}>by </span>&nbsp;
-              <span className={style.human}> human</span>
-              <span className={style.cloud}>cloud</span>
+            <div className={style.logoimage}>
+              <span className={style.byhumancloud}>by </span>
+              <span className={style.human}> {logoimage}</span>
+              
             </div>
           </div>
         </Grid>

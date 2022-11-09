@@ -39,19 +39,10 @@
     font-weight: bolder;
 }
 
-.human {
-
-    color: #648FFF;
-    font-size: 3em;
-
-    font-weight: 700;
-}
-
-.cloud {
-    color: #648FFF;
-    font-size: 3em;
-
-    font-weight: 257;
+.logoimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .containeritem{
@@ -71,26 +62,12 @@
         font-size: 1em;
         color: #5d2eab;
         font-weight: 700;
-    }
-    
-    .human {
-    
-        color: #648FFF;
-        font-size: 2em;
-    
-        font-weight: 700;
-    }
-    
-    .cloud {
-        color: #648FFF;
-        font-size: 2em;
-    
-        font-weight: 257;
-    }
+        font-family: 'Roboto', sans-serif;
 
-    .image {
-       
+    }
+    
+ .image { 
         position: relative;
         padding: 20%;
     }
-}
+} 
