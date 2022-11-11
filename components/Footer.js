@@ -35,9 +35,10 @@ function Footer() {
                 <Grid className={styles.detail}>
                     <div className={styles.heading}>CONTACT</div>
                     <span>Sales</span>
-                    <p>sales@humancloud.co.in <br />India: +91 85301 16304 <br />US: +1 661 577 4443</p>
+                    <a href="mailto:sales@humancloud.co.in">sales@humancloud.co.in<br />
+                    <a href="tel:+91 85301 16304">India: +91 85301 16304</a><br /><a href="tel:+1 661 577 4443">US: + 661 577 4443</a></a>
                     <span>Customer Care</span>
-                    <p>info@humancloud.co.in</p>
+                    <a href="mailto:info@humancloud.co.in">info@humancloud.co.in</a>
                 </Grid>
                 <Grid className={styles.detail}>
                     <div className={styles.heading}>QUICK LINKS</div>

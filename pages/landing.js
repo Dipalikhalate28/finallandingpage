@@ -10,6 +10,7 @@ import Navbar from "../components/Navbar";
 import Forpartner from "../components/Forpartner";
 import Forclient from "./Forclient";
 import Browsebycategory from "../components/Browsebycategory";
+
 const landing = () => {
   const [scroll, setScroll] = useState(0);
   const [width, setWidth] = useState(true);
@@ -33,7 +34,7 @@ const landing = () => {
   }, []);
   return (
     <>
-      {width > "400" ?  <AppDrawer />  : <Navbar scroll={scroll} /> }
+       {width > "400" ?  <AppDrawer />  : <Navbar scroll={scroll} /> }
 
        <Grid container direction={"column"} alignItems="center" spacing={2}>
         <Grid 
@@ -58,7 +59,9 @@ const landing = () => {
         <Grid item md ={12} lg={12} xs={12} sx={{ width: "100%" }}>
           <Footer />
         </Grid>
-      </Grid> 
+      </Grid>  
+
+  
     </>
   );
 };
